@@ -1,0 +1,15 @@
+1. Pagrindinis puslapis is kurio galima eiti i rezervacijos puslapi
+2. Rezervacijos kurimo langai aiskiai aprasyti
+3. Budas irasyti knygos pavadinima ir rezervacijos laika
+4. Konfirmacijos mygtukas
+5. Budas grizti i pagrindini puslapi
+
+Iteraciju uzduotys (i sorta guessed right the first time):
+
+1. Sukurti /indexa
+2. Sukurti link i /reservation /indexe
+3. /reservatione sukurti forma, ir inputa vartotojo vardui, knygos pavadinimui ir rezervacijos laikui
+4. Formai sukurti handleSubmita, kuris sius duomenis i database
+5. Po formos submito navigate i /
+
+Baigtumo kriterijai: 1-5 reikalavimai ivykdyti. Kaip sekesi? Kadangi as jau turejau githube pavyzdi, visai lengvai.
