@@ -38,7 +38,7 @@ function Reservation() {
     <div classuserName="form-container">
       <h2>Registracija</h2>
       <form onSubmit={handleSubmit} noValidate>
-        <label htmlFor="useruserName">Vartotojo vardas</label>
+        <label htmlFor="useruserName">Rezervuotojo vardas</label>
         <input
           type="text"
           id="useruserName"
@@ -48,7 +48,7 @@ function Reservation() {
           onChange={(e) => setUserName(e.target.value)}
           required
         />
-        <label htmlFor="bookName">Slaptažodis</label>
+        <label htmlFor="bookName">Knygos Pavadinimas</label>
         <input
           type="bookName"
           id="bookName"
@@ -58,9 +58,9 @@ function Reservation() {
           onChange={(e) => setBookName(e.target.value)}
           required
         />
-          <label htmlFor="bookName">Pakartok Slaptažodį</label>
+          <label htmlFor="reservedUntil">Rezervuota iki</label>
           <input
-              type="bookName"
+              type="reservedUntil"
               id="reservedUntil"
               userName="reservedUntil"
               classuserName="input"
