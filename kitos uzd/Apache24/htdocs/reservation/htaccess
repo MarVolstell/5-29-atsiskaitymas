@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Saugoma zona"
+AuthUserFile "C:/Apache24/htdocs/.htpasswd"
+Require valid-user
